@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.ASE.app.calculator;
+package edu.escuelaing.arep.calculator;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,7 +10,7 @@ import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Iterator;
 
-import edu.escuelaing.arep.ASE.app.utilities.LinkedList;
+import edu.escuelaing.arep.utilities.LinkedList;
 
 /**
  * App Class
