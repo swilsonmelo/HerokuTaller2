@@ -13,7 +13,7 @@ Make unit tests.
 
 Change in src/main/resources/views/js/app.js the url because currently the url for the post is addressed to heroku.
 
-    ![UrlPost](https://github.com/swilsonmelo/HerokuTaller2/blob/master/resources/imgs/postUrl.PNG)
+   ![UrlPost](https://github.com/swilsonmelo/HerokuTaller2/blob/master/resources/imgs/postUrl.PNG)
 
 
 To run the whole project.
