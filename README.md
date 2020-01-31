@@ -12,6 +12,7 @@ Make unit tests.
     mvn test
 
 Change in src/main/resources/views/js/app.js the url because currently the url for the post is addressed to heroku.
+Just change the comment.
 
    ![UrlPost](https://github.com/swilsonmelo/HerokuTaller2/blob/master/resources/imgs/postUrl.PNG)
 
