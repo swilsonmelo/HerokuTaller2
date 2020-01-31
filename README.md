@@ -1,6 +1,7 @@
 # HerokuTaller2
-
-## Running
+You can see the application working in heroku:
+https://swilsonsparkweb.herokuapp.com
+## Running locally
 
 Compile first time the project after downloaded.
 
@@ -10,13 +11,14 @@ Make unit tests.
 
     mvn test
 
+Change in src/main/resources/views/js/app.js the url because currently the url for the post is addressed to heroku.
+
 To run the whole project.
 
     mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.designprimer.SparkWebApp
     
     To open in your browser: http://localhost:4567/index.html
     
-
 
 Generate documentation.
 
