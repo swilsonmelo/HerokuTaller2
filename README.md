@@ -33,7 +33,7 @@ To try it out, just add comma-separated numbers in the input and Calculate. They
 
    The recorded numbers and the value of the mean and standard deviation will be added to the table
 
-Generate documentation.
+## Generate documentation.
 
 In order to obtain the documentation of the project, you must execute the command:
 
