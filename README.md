@@ -1,6 +1,10 @@
 # HerokuTaller2
+
+This web application allows you to calculate the mean and standard deviation of a set of data that is passed through a web page using Spark. The project implements my own implementation of a linked list this implementatios. This linked list is very similar to a Doubly LinkedList.
+
 You can see the application working in heroku:
 https://swilsonsparkweb.herokuapp.com
+
 ## Running locally
 
 Compile first time the project after downloaded.
@@ -23,6 +27,11 @@ To run the whole project.
     
     To open in your browser: http://localhost:4567/index.html
     
+To try it out, just add comma-separated numbers in the input and Calculate. They can be integers or real numbers.
+
+   ![UrlPost](https://github.com/swilsonmelo/HerokuTaller2/blob/master/resources/imgs/use.PNG)
+
+   The recorded numbers and the value of the mean and standard deviation will be added to the table
 
 Generate documentation.
 
@@ -35,6 +44,7 @@ An HTML documentation will be generated in /target/site/apidocs/index.html.
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management.
+* [Spark](http://sparkjava.com/) - Micro Framework For Creating Web Applications
 
 ## Author
 
@@ -42,5 +52,5 @@ An HTML documentation will be generated in /target/site/apidocs/index.html.
 
 ## License
 
-* This project is under GNU General Public License - see [LICENSE](https://github.com/swilsonmelo/Lab1ArepMvnGit/blob/master/LICENSE) to more info.
+* This project is under GNU General Public License - see [LICENSE](https://github.com/swilsonmelo/HerokuTaller2/blob/master/LICENSE) to more info.
 
