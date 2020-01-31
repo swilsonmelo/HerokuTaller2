@@ -1,6 +1,6 @@
 # HerokuTaller2
 
-This web application allows you to calculate the mean and standard deviation of a set of data that is passed through a web page using Spark. The project implements my own implementation of a linked list this implementatios. This linked list is very similar to a Doubly LinkedList.
+This web application allows you to calculate the mean and standard deviation of a set of data that is passed through a web page using Spark. The project implements my own implementation of a linked list. This linked list is very similar to a Doubly LinkedList.
 
 You can see the application working in heroku:
 https://swilsonsparkweb.herokuapp.com
