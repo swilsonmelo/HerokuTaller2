@@ -1,4 +1,40 @@
 # HerokuTaller2
 
-mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.designprimer.SparkWebApp"
-http://localhost:4567/hello
+## Running
+
+Compile first time the project after downloaded.
+
+    mvn package
+
+Make unit tests.
+
+    mvn test
+
+To run the whole project.
+
+    mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.designprimer.SparkWebApp
+    
+    To open in your browser: http://localhost:4567/index.html
+    
+
+
+Generate documentation.
+
+In order to obtain the documentation of the project, you must execute the command:
+
+    mvn javadoc:jar
+
+An HTML documentation will be generated in /target/site/apidocs/index.html.
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management.
+
+## Author
+
+* **Willson Sneitder Melo Merchan** - Escuela Colombiana de Ingeniería Julio Garavito.
+
+## License
+
+* This project is under GNU General Public License - see [LICENSE](https://github.com/swilsonmelo/Lab1ArepMvnGit/blob/master/LICENSE) to more info.
+

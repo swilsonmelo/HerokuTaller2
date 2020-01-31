@@ -17,7 +17,8 @@ button.addEventListener('click', function () {
 
     }
     console.log(datos);
-    axios.post('http://localhost:4567/statistics/calculate/', data)
+    axios.post('https://swilsonsparkweb.herokuapp.com/statistics/calculate/', data)
+    //axios.post('http://localhost:4567/statistics/calculate/', data)
         .then(res => {
             var obj = JSON.parse(res.data);
             $('#results').append(`
